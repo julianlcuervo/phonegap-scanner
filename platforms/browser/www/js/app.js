@@ -5,9 +5,10 @@ $(document).ready(function() {
 function onDeviceReady() {		
      $('#scan').click( function() 
 		{
+		  alert('hi');
 		  cordova.plugins.barcodeScanner.scan(
 		  function (result) {
-			  alert("Code Scanned\n" +
+			  alert("We got a barcode\n" +
 					"Result: " + result.text + "\n" +
 					"Format: " + result.format + "\n" +
 					"Cancelled: " + result.cancelled);			  
