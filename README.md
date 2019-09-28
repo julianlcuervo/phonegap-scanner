@@ -1,2 +1,2 @@
-# phonegap-scanner
-scanner
+# QR-SCANNER
+qr scanner for android devices 
